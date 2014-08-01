@@ -7,7 +7,9 @@ Instructions:
 
 - git clone https://github.com/junjs/cube-solution.git
 
-- cd into && ./gradlew bootRun
+- Import to eclipse with Gradle Plugin to update dependencies
+
+- cd into with terminal && ./gradlew bootRun
 
 - browse http://localhost:8080/cubes?size1=3&x1=3&y1=3&z1=3&size2=5&x2=3&y2=3&z2=4
 
