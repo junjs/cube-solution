@@ -52,7 +52,7 @@ public class Cube {
 		size = 0;
 		coordinates = new Coordinates();
 		minCoordinates = new Coordinates();
-		coordinates = new Coordinates();
+		maxCoordinates = new Coordinates();
 	}
 
 	public Cube(float size, float x, float y, float z) {
