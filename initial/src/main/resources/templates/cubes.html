@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Cubes</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<h2>Cubes</h2>
+    <p th:text="'Cube 1 size: ' + ${cube1.size}" />
+    <p th:text="'Cube 1 coordinates: ' + ${cube1.coordinates.x} + ',' + ${cube1.coordinates.y} + ',' + ${cube1.coordinates.z}" />
+    <p th:text="'Cube 2 size: ' + ${cube2.size}" />
+    <p th:text="'Cube 2 coordinates: ' + ${cube2.coordinates.x} + ',' + ${cube2.coordinates.y} + ',' + ${cube2.coordinates.z}" />
+
+    <h2>Calcs:</h2>
+    <p th:text="'Is there intersection? ' + ${areIntersected}" />
+    <p th:text="'Shared Volume: ' + ${sharedVolume}" />
+</body>
+</html>
